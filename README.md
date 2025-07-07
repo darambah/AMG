@@ -14,6 +14,9 @@ npm install playwright
 
 Run test Npm playwright test
 
+
+
+-----------------------------------
 Security Scan with OWASP ZAP
 
 This project was scanned using OWASP ZAP (Baseline Scan) to detect common web vulnerabilities.
