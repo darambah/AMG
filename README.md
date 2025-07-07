@@ -27,10 +27,7 @@ docker pull zaproxy/zap-weekly docker run --rm -v $(pwd):/zap/wrk/:rw -t zaproxy
 zap-baseline.py -t https://darambah.com -r zap_report.html
 
 scan folder contains a html file for this test if you do not want to run it.
-———————————————————————————————————
 
-
-SECURITY TEST
 Automate it in GitHub Actions
 Add a .github/workflows/zap.yml:
 
