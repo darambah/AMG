@@ -1,3 +1,20 @@
+JMETER
+------
+
+Install Apache JMeter (same or compatible version)
+Open the .jmx file via File > Open
+
+run on terminal within the bin folder of jmeter
+ cd bin
+ sh jmeter.sh
+This should load the jmeter up in case you cannot open it
+
+Run the test by clicking a play button.
+To see test results open web flow summary report
+
+
+
+
 PLAYWRIGHT PAGE OBJECT MODEL PROJECT
 ———————————————————————————————————
 HOW TO RUN SCRIPTS
@@ -9,6 +26,10 @@ npm install playwright
 Run test by keying in
 Run test Npx playwright test
 -----------------------------------
+
+
+
+
 
 SECURITY TEST
 Security Scan with OWASP ZAP
@@ -47,18 +68,7 @@ jobs:
 ----------------------------------------------
 
 Test Strategy 
-Contains my test strategu file for streamAMG
+Contains test strategy pdf file for streamAMG
         
 --------------------------------------------
-JMETER SCRIPS
 
-Install Apache JMeter (same or compatible version)
-Open the .jmx file via File > Open
-
-run on terminal within the bin folder of jmeter
- cd bin
- sh jmeter.sh
-This should load the jmeter up in case you cannot open it
-
-Run the test by clicking a play button.
-To see test results open web flow summary report
