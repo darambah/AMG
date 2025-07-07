@@ -1,0 +1,23 @@
+{
+  "name": "demo-typescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "bdd": "cucumber-js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.53.2",
+    "dotenv": "^17.0.1",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.10",
+    "ts-node": "^10.9.2"
+  }
+}
